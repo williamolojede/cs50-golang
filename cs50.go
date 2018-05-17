@@ -2,8 +2,8 @@ package cs50
 
 import (
 	"bufio"
-	"os"
 	"fmt"
+	"os"
 	"strconv"
 )
 
@@ -14,6 +14,7 @@ func getInput(msg string) string {
 	x = x[:len(x)-1]
 	return x
 }
+
 func retry() string {
 	return getInput("Retry: ")
 }
